@@ -1,0 +1,13 @@
+[2023-06-27 19:16:19]--[src_cgi/dealsharefile_cgi.c:41]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-06-27 19:16:19]--[src_cgi/dealsharefile_cgi.c:46]--redis:[ip=127.0.0.1,port=6379]
+[2023-06-27 19:52:24]--[src_cgi/dealsharefile_cgi.c:552]--cmd = pv
+[2023-06-27 19:52:24]--[src_cgi/dealsharefile_cgi.c:584]--buf = {
+    "filename": "0000.txt",
+    "md5": "06def72f256697b6533eedb5c425f4ab",
+    "user": "milo"
+}
+
+[2023-06-27 19:52:24]--[src_cgi/dealsharefile_cgi.c:587]--user = milo, md5 = 06def72f256697b6533eedb5c425f4ab, file_name = 0000.txt
+[2023-06-27 19:52:24]--[src_cgi/dealsharefile_cgi.c:158]--sql:select pv from share_file_list where md5 = '06def72f256697b6533eedb5c425f4ab' and file_name = '0000.txt'
+[2023-06-27 19:52:24]--[src_cgi/dealsharefile_cgi.c:175]--sql:update share_file_list set pv = 1 where md5 = '06def72f256697b6533eedb5c425f4ab' and file_name = '0000.txt'
+[2023-06-27 19:52:24]--[src_cgi/dealsharefile_cgi.c:190]--rop_zset_increment 操作失败
+[2023-06-27 19:58:34]--[src_cgi/dealsharefile_cgi.c:41]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-06-27 19:58:34]--[src_cgi/dealsharefile_cgi.c:46]--redis:[ip=127.0.0.1,port=6379]

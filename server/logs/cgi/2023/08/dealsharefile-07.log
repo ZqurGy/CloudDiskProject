@@ -1,0 +1,8 @@
+[2023-08-07 23:23:49]--[src_cgi/dealsharefile_cgi.c:552]--cmd = save
+[2023-08-07 23:23:49]--[src_cgi/dealsharefile_cgi.c:584]--buf = {
+    "filename": "0000.txt",
+    "md5": "06def72f256697b6533eedb5c425f4ab",
+    "user": "zzzzz"
+}
+
+[2023-08-07 23:23:49]--[src_cgi/dealsharefile_cgi.c:587]--user = zzzzz, md5 = 06def72f256697b6533eedb5c425f4ab, file_name = 0000.txt

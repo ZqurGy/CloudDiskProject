@@ -1,0 +1,620 @@
+[2023-06-27 19:16:19]--[src_cgi/myfiles_cgi.c:39]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-06-27 19:16:30]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:16:30]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "cca87a6a8a283be0fadea62c81cdbc3a",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:16:30]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='zzzz' 操作失败
+[2023-06-27 19:16:30]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-06-27 19:17:16]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:17:16]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "cca87a6a8a283be0fadea62c81cdbc3a",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:17:16]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='zzzz' 操作失败
+[2023-06-27 19:17:16]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-06-27 19:17:19]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:17:19]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "cca87a6a8a283be0fadea62c81cdbc3a",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:17:19]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='zzzz' 操作失败
+[2023-06-27 19:17:19]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-06-27 19:17:21]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:17:21]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "cca87a6a8a283be0fadea62c81cdbc3a",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:17:21]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='zzzz' 操作失败
+[2023-06-27 19:17:21]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-06-27 19:17:50]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:17:50]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "cca87a6a8a283be0fadea62c81cdbc3a",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:17:50]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='zzzz' 操作失败
+[2023-06-27 19:17:50]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-06-27 19:17:55]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:17:55]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "cca87a6a8a283be0fadea62c81cdbc3a",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:17:55]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='zzzz' 操作失败
+[2023-06-27 19:17:55]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-06-27 19:18:01]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:18:01]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "8ee1a206734287a8640a2b621295a4d8",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:18:01]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='zzzz' 操作失败
+[2023-06-27 19:18:01]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-06-27 19:19:08]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:19:08]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "8ee1a206734287a8640a2b621295a4d8",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:19:08]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:19:08]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:19:08]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "8ee1a206734287a8640a2b621295a4d8",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:19:08]--[src_cgi/myfiles_cgi.c:556]--user = zzzz, token = 8ee1a206734287a8640a2b621295a4d8, start = 0, count = 1
+[2023-06-27 19:19:08]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'zzzz' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:19:08]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"create_time":	"2023-06-27 19:19:07",
+			"file_name":	"1111.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:19:12]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:19:12]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "8ee1a206734287a8640a2b621295a4d8",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:19:12]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:19:12]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:19:12]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "8ee1a206734287a8640a2b621295a4d8",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:19:12]--[src_cgi/myfiles_cgi.c:556]--user = zzzz, token = 8ee1a206734287a8640a2b621295a4d8, start = 0, count = 1
+[2023-06-27 19:19:12]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'zzzz' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:19:12]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"create_time":	"2023-06-27 19:19:07",
+			"file_name":	"1111.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:19:25]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:19:25]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "7e65ad7bd0bb6dc97b86be4f75727e11",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:19:25]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:19:25]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:19:25]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "7e65ad7bd0bb6dc97b86be4f75727e11",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:19:25]--[src_cgi/myfiles_cgi.c:556]--user = zzzz, token = 7e65ad7bd0bb6dc97b86be4f75727e11, start = 0, count = 1
+[2023-06-27 19:19:25]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'zzzz' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:19:25]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"create_time":	"2023-06-27 19:19:07",
+			"file_name":	"1111.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:19:43]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:19:43]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "7e65ad7bd0bb6dc97b86be4f75727e11",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:19:43]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:19:43]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:19:43]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "7e65ad7bd0bb6dc97b86be4f75727e11",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:19:43]--[src_cgi/myfiles_cgi.c:556]--user = zzzz, token = 7e65ad7bd0bb6dc97b86be4f75727e11, start = 0, count = 1
+[2023-06-27 19:19:43]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'zzzz' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:19:43]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"create_time":	"2023-06-27 19:19:07",
+			"file_name":	"1111.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:20:14]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:20:14]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "7e65ad7bd0bb6dc97b86be4f75727e11",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:20:14]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:20:14]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:20:14]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "7e65ad7bd0bb6dc97b86be4f75727e11",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:20:14]--[src_cgi/myfiles_cgi.c:556]--user = zzzz, token = 7e65ad7bd0bb6dc97b86be4f75727e11, start = 0, count = 1
+[2023-06-27 19:20:14]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'zzzz' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:20:14]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"create_time":	"2023-06-27 19:19:07",
+			"file_name":	"1111.txt",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:21:17]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:21:17]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "7e65ad7bd0bb6dc97b86be4f75727e11",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:21:17]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:21:17]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:21:17]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "7e65ad7bd0bb6dc97b86be4f75727e11",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:21:17]--[src_cgi/myfiles_cgi.c:556]--user = zzzz, token = 7e65ad7bd0bb6dc97b86be4f75727e11, start = 0, count = 1
+[2023-06-27 19:21:17]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'zzzz' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:21:17]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"create_time":	"2023-06-27 19:19:07",
+			"file_name":	"1111.txt",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:21:21]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:21:21]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "7e65ad7bd0bb6dc97b86be4f75727e11",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:21:21]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:21:21]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:21:21]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "7e65ad7bd0bb6dc97b86be4f75727e11",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:21:21]--[src_cgi/myfiles_cgi.c:556]--user = zzzz, token = 7e65ad7bd0bb6dc97b86be4f75727e11, start = 0, count = 1
+[2023-06-27 19:21:21]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'zzzz' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:21:21]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"create_time":	"2023-06-27 19:19:07",
+			"file_name":	"1111.txt",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:23:07]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:23:07]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "787121ca668916f512cc4dc55094e1d6",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:23:07]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:23:07]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:23:07]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "787121ca668916f512cc4dc55094e1d6",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:23:07]--[src_cgi/myfiles_cgi.c:556]--user = zzzz, token = 787121ca668916f512cc4dc55094e1d6, start = 0, count = 1
+[2023-06-27 19:23:07]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'zzzz' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:23:07]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"create_time":	"2023-06-27 19:19:07",
+			"file_name":	"1111.txt",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:23:12]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:23:12]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "787121ca668916f512cc4dc55094e1d6",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:23:12]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:23:12]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:23:12]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "787121ca668916f512cc4dc55094e1d6",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:23:12]--[src_cgi/myfiles_cgi.c:556]--user = zzzz, token = 787121ca668916f512cc4dc55094e1d6, start = 0, count = 1
+[2023-06-27 19:23:12]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'zzzz' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:23:12]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"create_time":	"2023-06-27 19:19:07",
+			"file_name":	"1111.txt",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:23:27]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:23:27]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "787121ca668916f512cc4dc55094e1d6",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:23:27]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:23:27]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:23:27]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "787121ca668916f512cc4dc55094e1d6",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:23:27]--[src_cgi/myfiles_cgi.c:556]--user = zzzz, token = 787121ca668916f512cc4dc55094e1d6, start = 0, count = 1
+[2023-06-27 19:23:27]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'zzzz' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:23:27]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"create_time":	"2023-06-27 19:19:07",
+			"file_name":	"1111.txt",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:51:01]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:51:01]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "2862a5028339df5f5cea3ba2dd0fd4ef",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:51:01]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:51:01]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:51:01]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "2862a5028339df5f5cea3ba2dd0fd4ef",
+    "user": "zzzz"
+}
+
+[2023-06-27 19:51:01]--[src_cgi/myfiles_cgi.c:556]--user = zzzz, token = 2862a5028339df5f5cea3ba2dd0fd4ef, start = 0, count = 1
+[2023-06-27 19:51:01]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'zzzz' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:51:01]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"create_time":	"2023-06-27 19:19:07",
+			"file_name":	"1111.txt",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:51:09]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:51:09]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:51:09]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='milo' 操作失败
+[2023-06-27 19:51:09]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-06-27 19:51:25]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:51:25]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:51:25]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:51:25]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:51:25]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:51:25]--[src_cgi/myfiles_cgi.c:556]--user = milo, token = 3a4969ae50293e1beaa857f3a4fe3eda, start = 0, count = 1
+[2023-06-27 19:51:25]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'milo' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:51:25]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"milo",
+			"md5":	"06def72f256697b6533eedb5c425f4ab",
+			"create_time":	"2023-06-27 19:51:24",
+			"file_name":	"0000.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt",
+			"size":	62,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:51:28]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:51:28]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:51:28]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:51:28]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:51:28]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:51:28]--[src_cgi/myfiles_cgi.c:556]--user = milo, token = 3a4969ae50293e1beaa857f3a4fe3eda, start = 0, count = 1
+[2023-06-27 19:51:28]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'milo' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:51:28]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"milo",
+			"md5":	"06def72f256697b6533eedb5c425f4ab",
+			"create_time":	"2023-06-27 19:51:24",
+			"file_name":	"0000.txt",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt",
+			"size":	62,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:51:54]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:51:54]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:51:54]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:51:54]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:51:54]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:51:54]--[src_cgi/myfiles_cgi.c:556]--user = milo, token = 3a4969ae50293e1beaa857f3a4fe3eda, start = 0, count = 1
+[2023-06-27 19:51:54]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'milo' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:51:54]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"milo",
+			"md5":	"06def72f256697b6533eedb5c425f4ab",
+			"create_time":	"2023-06-27 19:51:24",
+			"file_name":	"0000.txt",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt",
+			"size":	62,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:52:41]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:52:41]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:52:41]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:52:41]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:52:41]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:52:41]--[src_cgi/myfiles_cgi.c:556]--user = milo, token = 3a4969ae50293e1beaa857f3a4fe3eda, start = 0, count = 1
+[2023-06-27 19:52:41]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'milo' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:52:41]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"milo",
+			"md5":	"06def72f256697b6533eedb5c425f4ab",
+			"create_time":	"2023-06-27 19:51:24",
+			"file_name":	"0000.txt",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt",
+			"size":	62,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:52:58]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:52:58]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:52:58]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:52:58]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:52:58]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:52:58]--[src_cgi/myfiles_cgi.c:556]--user = milo, token = 3a4969ae50293e1beaa857f3a4fe3eda, start = 0, count = 1
+[2023-06-27 19:52:58]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'milo' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:52:58]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"milo",
+			"md5":	"06def72f256697b6533eedb5c425f4ab",
+			"create_time":	"2023-06-27 19:51:24",
+			"file_name":	"0000.txt",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt",
+			"size":	62,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:52:59]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:52:59]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:52:59]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:52:59]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:52:59]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:52:59]--[src_cgi/myfiles_cgi.c:556]--user = milo, token = 3a4969ae50293e1beaa857f3a4fe3eda, start = 0, count = 1
+[2023-06-27 19:52:59]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'milo' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:52:59]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"milo",
+			"md5":	"06def72f256697b6533eedb5c425f4ab",
+			"create_time":	"2023-06-27 19:51:24",
+			"file_name":	"0000.txt",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt",
+			"size":	62,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:56:02]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 19:56:02]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:56:02]--[src_cgi/myfiles_cgi.c:175]--line = 1
+[2023-06-27 19:56:02]--[src_cgi/myfiles_cgi.c:504]--cmd = normal
+[2023-06-27 19:56:02]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "3a4969ae50293e1beaa857f3a4fe3eda",
+    "user": "milo"
+}
+
+[2023-06-27 19:56:02]--[src_cgi/myfiles_cgi.c:556]--user = milo, token = 3a4969ae50293e1beaa857f3a4fe3eda, start = 0, count = 1
+[2023-06-27 19:56:02]--[src_cgi/myfiles_cgi.c:305]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'milo' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2023-06-27 19:56:02]--[src_cgi/myfiles_cgi.c:436]--{
+	"files":	[{
+			"user":	"milo",
+			"md5":	"06def72f256697b6533eedb5c425f4ab",
+			"create_time":	"2023-06-27 19:51:24",
+			"file_name":	"0000.txt",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt",
+			"size":	62,
+			"type":	"txt"
+		}]
+}
+[2023-06-27 19:58:34]--[src_cgi/myfiles_cgi.c:39]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-06-27 20:04:53]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 20:04:53]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "8dcbf006600de7cd3f07a3702cf7a6c2",
+    "user": "zxp"
+}
+
+[2023-06-27 20:04:53]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='zxp' 操作失败
+[2023-06-27 20:04:53]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-06-27 20:04:57]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-27 20:04:57]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "8dcbf006600de7cd3f07a3702cf7a6c2",
+    "user": "zxp"
+}
+
+[2023-06-27 20:04:57]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='zxp' 操作失败
+[2023-06-27 20:04:57]--[src_cgi/myfiles_cgi.c:175]--line = 0

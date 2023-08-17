@@ -1,0 +1,31 @@
+[2023-06-27 19:16:27]--[src_cgi/reg_cgi.c:235]--buf = {
+    "email": "1648408929@qq.com",
+    "firstPwd": "96e79218965eb72c92a549dd5a330112",
+    "nickName": "zzzz",
+    "phone": "18403664638",
+    "userName": "zzzz"
+}
+
+[2023-06-27 19:16:27]--[src_cgi/reg_cgi.c:127]--mysql_user = root, mysql_pwd = 1, mysql_db = 0voice_cloud_disk
+[2023-06-27 19:16:27]--[src_cgi/reg_cgi.c:140]--user_name = zzzz, nick_name = zzzz, pwd = 96e79218965eb72c92a549dd5a330112, tel = 18403664638, email = 1648408929@qq.com
+[2023-06-27 19:51:07]--[src_cgi/reg_cgi.c:235]--buf = {
+    "email": "472251823@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "milo",
+    "phone": "18620823143",
+    "userName": "milo"
+}
+
+[2023-06-27 19:51:07]--[src_cgi/reg_cgi.c:127]--mysql_user = root, mysql_pwd = 1, mysql_db = 0voice_cloud_disk
+[2023-06-27 19:51:07]--[src_cgi/reg_cgi.c:140]--user_name = milo, nick_name = milo, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 18620823143, email = 472251823@qq.com
+[2023-06-27 19:54:31]--[src_cgi/reg_cgi.c:221]--len = 0, No data from standard input
+[2023-06-27 20:04:49]--[src_cgi/reg_cgi.c:235]--buf = {
+    "email": "472251823@qq.com",
+    "firstPwd": "96e79218965eb72c92a549dd5a330112",
+    "nickName": "zxp",
+    "phone": "18620823143",
+    "userName": "zxp"
+}
+
+[2023-06-27 20:04:49]--[src_cgi/reg_cgi.c:127]--mysql_user = root, mysql_pwd = 1, mysql_db = 0voice_cloud_disk
+[2023-06-27 20:04:49]--[src_cgi/reg_cgi.c:140]--user_name = zxp, nick_name = zxp, pwd = 96e79218965eb72c92a549dd5a330112, tel = 18620823143, email = 472251823@qq.com

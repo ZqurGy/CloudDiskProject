@@ -1,0 +1,16 @@
+[2023-08-06 13:50:01]--[src_cgi/myfiles_cgi.c:39]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-08-06 13:52:27]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-08-06 13:52:27]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "cef0c792cb12860de9b570d9820a72ef",
+    "user": "zzzzz"
+}
+
+[2023-08-06 13:52:27]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='zzzzz' 操作失败
+[2023-08-06 13:52:27]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-08-06 13:53:06]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-08-06 13:53:06]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "83703729ea852291d134bf4224b9ed40",
+    "user": "zzzzz"
+}
+
+[2023-08-06 13:53:06]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='zzzzz' 操作失败
+[2023-08-06 13:53:06]--[src_cgi/myfiles_cgi.c:175]--line = 0

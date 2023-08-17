@@ -1,0 +1,21 @@
+[2023-06-30 20:56:31]--[src_cgi/reg_cgi.c:235]--buf = {
+    "email": "472251823@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "milo",
+    "phone": "18620823143",
+    "userName": "milo"
+}
+
+[2023-06-30 20:56:31]--[src_cgi/reg_cgi.c:127]--mysql_user = root, mysql_pwd = 1, mysql_db = 0voice_cloud_disk
+[2023-06-30 20:56:31]--[src_cgi/reg_cgi.c:140]--user_name = milo, nick_name = milo, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 18620823143, email = 472251823@qq.com
+[2023-06-30 20:56:31]--[src_cgi/reg_cgi.c:164]--【(null)】该用户已存在
+[2023-06-30 20:56:43]--[src_cgi/reg_cgi.c:235]--buf = {
+    "email": "472251823@qq.com",
+    "firstPwd": "fcea920f7412b5da7be0cf42b8c93759",
+    "nickName": "aaaaa",
+    "phone": "18620823143",
+    "userName": "aaaaa"
+}
+
+[2023-06-30 20:56:43]--[src_cgi/reg_cgi.c:127]--mysql_user = root, mysql_pwd = 1, mysql_db = 0voice_cloud_disk
+[2023-06-30 20:56:43]--[src_cgi/reg_cgi.c:140]--user_name = aaaaa, nick_name = aaaaa, pwd = fcea920f7412b5da7be0cf42b8c93759, tel = 18620823143, email = 472251823@qq.com

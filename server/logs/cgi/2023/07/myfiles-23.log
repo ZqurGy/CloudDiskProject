@@ -1,0 +1,48 @@
+[2023-07-23 02:32:47]--[src_cgi/myfiles_cgi.c:39]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-07-23 02:33:05]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-07-23 02:33:05]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "716d3bc8bc73602cd278bc34cab59d1c",
+    "user": "aaaaa"
+}
+
+[2023-07-23 02:33:05]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='aaaaa' 操作失败
+[2023-07-23 02:33:05]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-07-23 02:33:12]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-07-23 02:33:12]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "5947d0f2c52805f981bb2141a4cd133c",
+    "user": "aaaaa"
+}
+
+[2023-07-23 02:33:12]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='aaaaa' 操作失败
+[2023-07-23 02:33:12]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-07-23 02:33:48]--[src_cgi/myfiles_cgi.c:39]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-07-23 04:14:31]--[src_cgi/myfiles_cgi.c:39]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-07-23 04:46:19]--[src_cgi/myfiles_cgi.c:39]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-07-23 04:46:21]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-07-23 04:46:21]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "8086e8796794e555d129d6ebc20110c8",
+    "user": "aaaaa"
+}
+
+[2023-07-23 04:46:21]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='aaaaa' 操作失败
+[2023-07-23 04:46:21]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-07-23 04:46:25]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-07-23 04:46:25]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "60ac4f762191fc3b5b51100dd33c0e53",
+    "user": "aaaaa"
+}
+
+[2023-07-23 04:46:25]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='aaaaa' 操作失败
+[2023-07-23 04:46:25]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-07-23 04:46:28]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-07-23 04:46:28]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "60ac4f762191fc3b5b51100dd33c0e53",
+    "user": "aaaaa"
+}
+
+[2023-07-23 04:46:28]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='aaaaa' 操作失败
+[2023-07-23 04:46:28]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-07-23 05:16:33]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-07-23 05:16:33]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "47c3e2fc0fc7c9349624e353e23c9d1c",
+    "user": "aaaaa"
+}
+
+[2023-07-23 05:16:33]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='aaaaa' 操作失败
+[2023-07-23 05:16:33]--[src_cgi/myfiles_cgi.c:175]--line = 0

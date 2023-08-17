@@ -1,0 +1,23 @@
+[2023-06-27 19:16:19]--[src_cgi/upload_cgi.c:43]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-06-27 19:19:07]--[src_cgi/upload_cgi.c:666]--CONTENT_LENGTH:278
+[2023-06-27 19:19:07]--[src_cgi/upload_cgi.c:682]--开始上传[, 大小：278]到本地
+[2023-06-27 19:19:07]--[src_cgi/upload_cgi.c:118]--boundary: [------WebKitFormBoundaryb^ZNgGuR@]p3[aU:]
+[2023-06-27 19:19:07]--[src_cgi/upload_cgi.c:138]--content_text: [Content-Disposition: form-data; user="zzzz" filename="1111.txt" md5="11b0203f3d6b6a8db690886a18f9a988" size=40]
+[2023-06-27 19:19:07]--[src_cgi/upload_cgi.c:261]--start open 1111.txt
+[2023-06-27 19:19:07]--[src_cgi/upload_cgi.c:271]--write 1111.txt len 40
+[2023-06-27 19:19:07]--[src_cgi/upload_cgi.c:690]--zzzz成功上传[1111.txt, 大小：40, md5码：11b0203f3d6b6a8db690886a18f9a988]到本地
+[2023-06-27 19:19:07]--[src_cgi/upload_cgi.c:421]--get [group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt] succ!
+[2023-06-27 19:19:07]--[src_cgi/upload_cgi.c:530]--file url is: http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt
+[2023-06-27 19:19:07]--[src_cgi/upload_cgi.c:584]--insert into file_info (md5, file_id, url, size, type, count) values ('11b0203f3d6b6a8db690886a18f9a988', 'group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt', 'http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt', '40', 'txt', 1) 文件信息插入成功
+[2023-06-27 19:51:24]--[src_cgi/upload_cgi.c:666]--CONTENT_LENGTH:300
+[2023-06-27 19:51:24]--[src_cgi/upload_cgi.c:682]--开始上传[, 大小：300]到本地
+[2023-06-27 19:51:24]--[src_cgi/upload_cgi.c:118]--boundary: [------WebKitFormBoundaryJY9t80BHrt^K5wZF]
+[2023-06-27 19:51:24]--[src_cgi/upload_cgi.c:138]--content_text: [Content-Disposition: form-data; user="milo" filename="0000.txt" md5="06def72f256697b6533eedb5c425f4ab" size=62]
+[2023-06-27 19:51:24]--[src_cgi/upload_cgi.c:261]--start open 0000.txt
+[2023-06-27 19:51:24]--[src_cgi/upload_cgi.c:271]--write 0000.txt len 62
+[2023-06-27 19:51:24]--[src_cgi/upload_cgi.c:690]--milo成功上传[0000.txt, 大小：62, md5码：06def72f256697b6533eedb5c425f4ab]到本地
+[2023-06-27 19:51:24]--[src_cgi/upload_cgi.c:421]--get [group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt] succ!
+[2023-06-27 19:51:24]--[src_cgi/upload_cgi.c:530]--file url is: http://192.168.107.138:80/group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt
+[2023-06-27 19:51:24]--[src_cgi/upload_cgi.c:584]--insert into file_info (md5, file_id, url, size, type, count) values ('06def72f256697b6533eedb5c425f4ab', 'group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt', 'http://192.168.107.138:80/group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt', '62', 'txt', 1) 文件信息插入成功
+[2023-06-27 19:54:38]--[src_cgi/upload_cgi.c:666]--CONTENT_LENGTH:
+[2023-06-27 19:54:38]--[src_cgi/upload_cgi.c:677]--len = 0, No data from standard input
+[2023-06-27 19:58:33]--[src_cgi/upload_cgi.c:43]--mysql:[user=root,pwd=1,database=0voice_cloud_disk]

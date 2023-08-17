@@ -1,0 +1,16 @@
+[2023-06-30 20:56:45]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-30 20:56:45]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "6ceb5d5784901f2521b3ee3e1c276b67",
+    "user": "aaaaa"
+}
+
+[2023-06-30 20:56:45]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='aaaaa' 操作失败
+[2023-06-30 20:56:45]--[src_cgi/myfiles_cgi.c:175]--line = 0
+[2023-06-30 20:56:51]--[src_cgi/myfiles_cgi.c:504]--cmd = count
+[2023-06-30 20:56:51]--[src_cgi/myfiles_cgi.c:536]--buf = {
+    "token": "6ceb5d5784901f2521b3ee3e1c276b67",
+    "user": "aaaaa"
+}
+
+[2023-06-30 20:56:51]--[src_cgi/myfiles_cgi.c:163]--select count from user_file_count where user='aaaaa' 操作失败
+[2023-06-30 20:56:51]--[src_cgi/myfiles_cgi.c:175]--line = 0

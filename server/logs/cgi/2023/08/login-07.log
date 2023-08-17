@@ -1,0 +1,22 @@
+[2023-08-07 23:22:27]--[src_cgi/login_cgi.c:287]--buf = {
+    "pwd": "96e79218965eb72c92a549dd5a330112",
+    "user": "zzzzz"
+}
+
+[2023-08-07 23:22:27]--[src_cgi/login_cgi.c:293]--username = zzzzz, pwd = 96e79218965eb72c92a549dd5a330112
+[2023-08-07 23:22:27]--[src_cgi/login_cgi.c:100]--mysql_user = root, mysql_pwd = 1, mysql_db = 0voice_cloud_disk
+[2023-08-07 23:22:27]--[src_cgi/login_cgi.c:160]--redis:[ip=127.0.0.1,port=6379]
+[2023-08-07 23:22:27]--[src_cgi/login_cgi.c:184]--tmp = zzzzz324103199881
+[2023-08-07 23:22:27]--[src_cgi/login_cgi.c:200]--base64 = Pon5s0ogQP5xf81Op9xnovlvnLKu4lWq
+[2023-08-07 23:22:27]--[src_cgi/login_cgi.c:302]--token = 06be83c3b00a3d844e1b59742bd7406f
+[2023-08-07 23:39:53]--[src_cgi/login_cgi.c:287]--buf = {
+    "pwd": "96e79218965eb72c92a549dd5a330112",
+    "user": "zzzzz"
+}
+
+[2023-08-07 23:39:53]--[src_cgi/login_cgi.c:293]--username = zzzzz, pwd = 96e79218965eb72c92a549dd5a330112
+[2023-08-07 23:39:53]--[src_cgi/login_cgi.c:100]--mysql_user = root, mysql_pwd = 1, mysql_db = 0voice_cloud_disk
+[2023-08-07 23:39:53]--[src_cgi/login_cgi.c:160]--redis:[ip=127.0.0.1,port=6379]
+[2023-08-07 23:39:53]--[src_cgi/login_cgi.c:184]--tmp = zzzzz26837670307
+[2023-08-07 23:39:53]--[src_cgi/login_cgi.c:200]--base64 = jv6zT2m8DUDFbCpNK1478C0ZxLNK7pNJ
+[2023-08-07 23:39:53]--[src_cgi/login_cgi.c:302]--token = a90b92122ae7122c6ab46288e0c7b57e

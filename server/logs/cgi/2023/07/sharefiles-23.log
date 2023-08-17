@@ -1,0 +1,141 @@
+[2023-07-23 02:32:47]--[src_cgi/sharefiles_cgi.c:41]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-07-23 02:32:47]--[src_cgi/sharefiles_cgi.c:46]--redis:[ip=127.0.0.1,port=6379]
+[2023-07-23 02:33:08]--[src_cgi/sharefiles_cgi.c:605]--cmd = count
+[2023-07-23 02:33:08]--[src_cgi/sharefiles_cgi.c:84]--line = 2
+[2023-07-23 02:33:08]--[src_cgi/sharefiles_cgi.c:605]--cmd = normal
+[2023-07-23 02:33:08]--[src_cgi/sharefiles_cgi.c:643]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2023-07-23 02:33:08]--[src_cgi/sharefiles_cgi.c:652]--start = 0, count = 2
+[2023-07-23 02:33:08]--[src_cgi/sharefiles_cgi.c:171]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2023-07-23 02:33:08]--[src_cgi/sharefiles_cgi.c:299]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"file_name":	"1111.txt",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-06-27 19:23:14",
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}, {
+			"user":	"milo",
+			"md5":	"06def72f256697b6533eedb5c425f4ab",
+			"file_name":	"0000.txt",
+			"share_status":	1,
+			"pv":	1,
+			"create_time":	"2023-06-27 19:51:37",
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt",
+			"size":	62,
+			"type":	"txt"
+		}]
+}
+[2023-07-23 02:33:09]--[src_cgi/sharefiles_cgi.c:605]--cmd = count
+[2023-07-23 02:33:09]--[src_cgi/sharefiles_cgi.c:84]--line = 2
+[2023-07-23 02:33:09]--[src_cgi/sharefiles_cgi.c:605]--cmd = pvdesc
+[2023-07-23 02:33:09]--[src_cgi/sharefiles_cgi.c:643]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2023-07-23 02:33:09]--[src_cgi/sharefiles_cgi.c:652]--start = 0, count = 2
+[2023-07-23 02:33:09]--[src_cgi/sharefiles_cgi.c:406]--sql_num = 2, redis_num = 2
+[2023-07-23 02:33:09]--[src_cgi/sharefiles_cgi.c:536]--{
+	"files":	[{
+			"filename":	"0000.txt",
+			"pv":	1
+		}, {
+			"filename":	"1111.txt",
+			"pv":	0
+		}]
+}
+[2023-07-23 02:33:13]--[src_cgi/sharefiles_cgi.c:605]--cmd = count
+[2023-07-23 02:33:13]--[src_cgi/sharefiles_cgi.c:84]--line = 2
+[2023-07-23 02:33:13]--[src_cgi/sharefiles_cgi.c:605]--cmd = normal
+[2023-07-23 02:33:13]--[src_cgi/sharefiles_cgi.c:643]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2023-07-23 02:33:13]--[src_cgi/sharefiles_cgi.c:652]--start = 0, count = 2
+[2023-07-23 02:33:13]--[src_cgi/sharefiles_cgi.c:171]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2023-07-23 02:33:13]--[src_cgi/sharefiles_cgi.c:299]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"file_name":	"1111.txt",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-06-27 19:23:14",
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}, {
+			"user":	"milo",
+			"md5":	"06def72f256697b6533eedb5c425f4ab",
+			"file_name":	"0000.txt",
+			"share_status":	1,
+			"pv":	1,
+			"create_time":	"2023-06-27 19:51:37",
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt",
+			"size":	62,
+			"type":	"txt"
+		}]
+}
+[2023-07-23 02:33:14]--[src_cgi/sharefiles_cgi.c:605]--cmd = count
+[2023-07-23 02:33:14]--[src_cgi/sharefiles_cgi.c:84]--line = 2
+[2023-07-23 02:33:14]--[src_cgi/sharefiles_cgi.c:605]--cmd = pvdesc
+[2023-07-23 02:33:14]--[src_cgi/sharefiles_cgi.c:643]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2023-07-23 02:33:14]--[src_cgi/sharefiles_cgi.c:652]--start = 0, count = 2
+[2023-07-23 02:33:14]--[src_cgi/sharefiles_cgi.c:406]--sql_num = 2, redis_num = 2
+[2023-07-23 02:33:14]--[src_cgi/sharefiles_cgi.c:536]--{
+	"files":	[{
+			"filename":	"0000.txt",
+			"pv":	1
+		}, {
+			"filename":	"1111.txt",
+			"pv":	0
+		}]
+}
+[2023-07-23 02:33:48]--[src_cgi/sharefiles_cgi.c:41]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-07-23 02:33:48]--[src_cgi/sharefiles_cgi.c:46]--redis:[ip=127.0.0.1,port=6379]
+[2023-07-23 04:14:32]--[src_cgi/sharefiles_cgi.c:41]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-07-23 04:14:32]--[src_cgi/sharefiles_cgi.c:46]--redis:[ip=127.0.0.1,port=6379]
+[2023-07-23 04:46:20]--[src_cgi/sharefiles_cgi.c:41]--mysql:[user=root,pwd=1,database=0voice_cloud_disk][2023-07-23 04:46:20]--[src_cgi/sharefiles_cgi.c:46]--redis:[ip=127.0.0.1,port=6379]
+[2023-07-23 04:46:27]--[src_cgi/sharefiles_cgi.c:605]--cmd = count
+[2023-07-23 04:46:27]--[src_cgi/sharefiles_cgi.c:84]--line = 2
+[2023-07-23 04:46:27]--[src_cgi/sharefiles_cgi.c:605]--cmd = normal
+[2023-07-23 04:46:27]--[src_cgi/sharefiles_cgi.c:643]--buf = {
+    "count": 2,
+    "start": 0
+}
+
+[2023-07-23 04:46:27]--[src_cgi/sharefiles_cgi.c:652]--start = 0, count = 2
+[2023-07-23 04:46:27]--[src_cgi/sharefiles_cgi.c:171]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 2 在操作
+[2023-07-23 04:46:27]--[src_cgi/sharefiles_cgi.c:299]--{
+	"files":	[{
+			"user":	"zzzz",
+			"md5":	"11b0203f3d6b6a8db690886a18f9a988",
+			"file_name":	"1111.txt",
+			"share_status":	1,
+			"pv":	0,
+			"create_time":	"2023-06-27 19:23:14",
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSaxauABtixAAAAKJusN8w703.txt",
+			"size":	40,
+			"type":	"txt"
+		}, {
+			"user":	"milo",
+			"md5":	"06def72f256697b6533eedb5c425f4ab",
+			"file_name":	"0000.txt",
+			"share_status":	1,
+			"pv":	1,
+			"create_time":	"2023-06-27 19:51:37",
+			"url":	"http://192.168.107.138:80/group1/M00/00/00/wKhrimSazTyARBn6AAAAPkrFpFQ798.txt",
+			"size":	62,
+			"type":	"txt"
+		}]
+}
